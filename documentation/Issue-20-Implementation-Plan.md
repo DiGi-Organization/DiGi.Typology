@@ -127,7 +127,7 @@ Guidelines: one logical member per file (generic overloads join their concrete s
 - [ ] `DiGi.GIS`, `DiGi.GIS.PostgreSQL`, `DiGi.GIS.UI`, `DiGi.GIS.WebAPI` build against the new `DiGi.Typology` bin.
 
 ## 8. Out of scope / risks
-- **Out of scope:** persisting `VisualTypology` through `TypologyModelPostgreSQLConverter`; UI Import/Export (ZiolkowskiJakub/DiGi.GIS.WebAPI.UI#17).
+- **Out of scope:** persisting `VisualTypology` through `TypologyModelPostgreSQLConverter`; UI Import/Export (DiGi-Organization/DiGi.GIS.WebAPI.UI#17).
 - **F1 (fatal if missed):** `new T(item)` / `new TTypologyItem(args)` do **not** compile on a type parameter (CS0304/CS0417) — do not attempt the public-ctor enabler; use `CreateNode`.
 - **F2:** the factory hook must be **`public`**, not `protected` (CS0122 from a generic extension).
 - **F3:** string-based generic overloads need explicit type args at a derived call site — ship the convenience overloads so the common path stays clean.
