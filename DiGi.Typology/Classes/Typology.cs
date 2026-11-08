@@ -541,6 +541,60 @@ namespace DiGi.Typology.Classes
             return !(typology_1 == typology_2);
         }
 
+        /// <summary>
+        /// Determines whether the first typology precedes the second in <see cref="CompareTo(TTypology)"/> order (null first).
+        /// </summary>
+        /// <param name="typology_1">The first typology, or null.</param>
+        /// <param name="typology_2">The second typology, or null.</param>
+        /// <returns>True if the first typology precedes the second; otherwise, false.</returns>
+        public static bool operator <(Typology<TTypology, TTypologyItem>? typology_1, Typology<TTypology, TTypologyItem>? typology_2)
+        {
+            if (typology_1 is null)
+            {
+                return typology_2 is not null;
+            }
+
+            return typology_2 is TTypology typology && typology_1.CompareTo(typology) < 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first typology precedes or equals the second in <see cref="CompareTo(TTypology)"/> order (null first).
+        /// </summary>
+        /// <param name="typology_1">The first typology, or null.</param>
+        /// <param name="typology_2">The second typology, or null.</param>
+        /// <returns>True if the first typology precedes or equals the second; otherwise, false.</returns>
+        public static bool operator <=(Typology<TTypology, TTypologyItem>? typology_1, Typology<TTypology, TTypologyItem>? typology_2)
+        {
+            if (typology_1 is null)
+            {
+                return true;
+            }
+
+            return typology_2 is TTypology typology && typology_1.CompareTo(typology) <= 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first typology follows the second in <see cref="CompareTo(TTypology)"/> order (null first).
+        /// </summary>
+        /// <param name="typology_1">The first typology, or null.</param>
+        /// <param name="typology_2">The second typology, or null.</param>
+        /// <returns>True if the first typology follows the second; otherwise, false.</returns>
+        public static bool operator >(Typology<TTypology, TTypologyItem>? typology_1, Typology<TTypology, TTypologyItem>? typology_2)
+        {
+            return typology_2 < typology_1;
+        }
+
+        /// <summary>
+        /// Determines whether the first typology follows or equals the second in <see cref="CompareTo(TTypology)"/> order (null first).
+        /// </summary>
+        /// <param name="typology_1">The first typology, or null.</param>
+        /// <param name="typology_2">The second typology, or null.</param>
+        /// <returns>True if the first typology follows or equals the second; otherwise, false.</returns>
+        public static bool operator >=(Typology<TTypology, TTypologyItem>? typology_1, Typology<TTypology, TTypologyItem>? typology_2)
+        {
+            return typology_2 <= typology_1;
+        }
+
         /// <summary>Returns a string representation of the current typology.</summary>
         /// <returns>The string form of the typology item, or the base object string when there is none.</returns>
         public override string ToString()

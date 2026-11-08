@@ -234,11 +234,11 @@ namespace DiGi.Typology.Visual
         }
 
         /// <summary>
-        /// Creates a <see cref="T:DiGi.Typology.Visual.Classes.VisualTypology"/> carrying the given item and the given sub-typologies.
+        /// Creates a <see cref="Classes.VisualTypology"/> carrying the given item and the given sub-typologies.
         /// <para>The sub-typologies are filed by <c>AddSubTypologies</c>: each is cloned and filed under the last index
         /// of its own path, or under the next free index when it carries no path or its index is already taken.
         /// Resolving those indexes is why this is a factory rather than a constructor. This is the
-        /// <see cref="T:DiGi.Typology.Visual.Classes.VisualTypology"/> sibling of the base <c>Create.Typology</c>, which would file a plain node and
+        /// <see cref="Classes.VisualTypology"/> sibling of the base <c>Create.Typology</c>, which would file a plain node and
         /// drop the item's appearance.</para>
         /// </summary>
         /// <param name="typologyItem">The typology item to assign.</param>

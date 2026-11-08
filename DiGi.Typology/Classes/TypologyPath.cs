@@ -302,6 +302,60 @@ namespace DiGi.Typology.Classes
         }
 
         /// <summary>
+        /// Determines whether the first path precedes the second in <see cref="CompareTo(TypologyPath)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyPath_1">The first path, or null.</param>
+        /// <param name="typologyPath_2">The second path, or null.</param>
+        /// <returns>True if the first path precedes the second; otherwise, false.</returns>
+        public static bool operator <(TypologyPath? typologyPath_1, TypologyPath? typologyPath_2)
+        {
+            if (typologyPath_1 is null)
+            {
+                return typologyPath_2 is not null;
+            }
+
+            return typologyPath_2 is not null && typologyPath_1.CompareTo(typologyPath_2) < 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first path precedes or equals the second in <see cref="CompareTo(TypologyPath)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyPath_1">The first path, or null.</param>
+        /// <param name="typologyPath_2">The second path, or null.</param>
+        /// <returns>True if the first path precedes or equals the second; otherwise, false.</returns>
+        public static bool operator <=(TypologyPath? typologyPath_1, TypologyPath? typologyPath_2)
+        {
+            if (typologyPath_1 is null)
+            {
+                return true;
+            }
+
+            return typologyPath_2 is not null && typologyPath_1.CompareTo(typologyPath_2) <= 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first path follows the second in <see cref="CompareTo(TypologyPath)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyPath_1">The first path, or null.</param>
+        /// <param name="typologyPath_2">The second path, or null.</param>
+        /// <returns>True if the first path follows the second; otherwise, false.</returns>
+        public static bool operator >(TypologyPath? typologyPath_1, TypologyPath? typologyPath_2)
+        {
+            return typologyPath_2 < typologyPath_1;
+        }
+
+        /// <summary>
+        /// Determines whether the first path follows or equals the second in <see cref="CompareTo(TypologyPath)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyPath_1">The first path, or null.</param>
+        /// <param name="typologyPath_2">The second path, or null.</param>
+        /// <returns>True if the first path follows or equals the second; otherwise, false.</returns>
+        public static bool operator >=(TypologyPath? typologyPath_1, TypologyPath? typologyPath_2)
+        {
+            return typologyPath_2 <= typologyPath_1;
+        }
+
+        /// <summary>
         /// Retrieves a path representing the hierarchy up to and including the specified index.
         /// </summary>
         /// <param name="index">The end index of the parent path.</param>

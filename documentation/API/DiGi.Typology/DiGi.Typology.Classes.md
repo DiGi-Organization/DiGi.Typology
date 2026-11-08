@@ -1355,6 +1355,60 @@ The second typology, or null\.
 [System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
 True if both are null or value\-equal; otherwise, false\.
 
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_)'></a>
+
+## Typology\<TTypology,TTypologyItem\>\.operator \>\(Typology\<TTypology,TTypologyItem\>, Typology\<TTypology,TTypologyItem\>\) Operator
+
+Determines whether the first typology follows the second in [CompareTo\(TTypology\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.CompareTo(TTypology) 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.CompareTo\(TTypology\)') order \(null first\)\.
+
+```csharp
+public static bool operator >(DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_1, DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_1'></a>
+
+`typology_1` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The first typology, or null\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_2'></a>
+
+`typology_2` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The second typology, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first typology follows the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_)'></a>
+
+## Typology\<TTypology,TTypologyItem\>\.operator \>=\(Typology\<TTypology,TTypologyItem\>, Typology\<TTypology,TTypologyItem\>\) Operator
+
+Determines whether the first typology follows or equals the second in [CompareTo\(TTypology\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.CompareTo(TTypology) 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.CompareTo\(TTypology\)') order \(null first\)\.
+
+```csharp
+public static bool operator >=(DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_1, DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_1'></a>
+
+`typology_1` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The first typology, or null\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_GreaterThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_2'></a>
+
+`typology_2` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The second typology, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first typology follows or equals the second; otherwise, false\.
+
 <a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_Inequality(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_)'></a>
 
 ## Typology\<TTypology,TTypologyItem\>\.operator \!=\(Typology\<TTypology,TTypologyItem\>, Typology\<TTypology,TTypologyItem\>\) Operator
@@ -1381,6 +1435,60 @@ The second typology, or null\.
 #### Returns
 [System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
 True if the typologies differ in value; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_)'></a>
+
+## Typology\<TTypology,TTypologyItem\>\.operator \<\(Typology\<TTypology,TTypologyItem\>, Typology\<TTypology,TTypologyItem\>\) Operator
+
+Determines whether the first typology precedes the second in [CompareTo\(TTypology\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.CompareTo(TTypology) 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.CompareTo\(TTypology\)') order \(null first\)\.
+
+```csharp
+public static bool operator <(DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_1, DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_1'></a>
+
+`typology_1` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The first typology, or null\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThan(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_2'></a>
+
+`typology_2` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The second typology, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first typology precedes the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_)'></a>
+
+## Typology\<TTypology,TTypologyItem\>\.operator \<=\(Typology\<TTypology,TTypologyItem\>, Typology\<TTypology,TTypologyItem\>\) Operator
+
+Determines whether the first typology precedes or equals the second in [CompareTo\(TTypology\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.CompareTo(TTypology) 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.CompareTo\(TTypology\)') order \(null first\)\.
+
+```csharp
+public static bool operator <=(DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_1, DiGi.Typology.Classes.Typology<TTypology,TTypologyItem>? typology_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_1'></a>
+
+`typology_1` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The first typology, or null\.
+
+<a name='DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.op_LessThanOrEqual(DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_,DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_).typology_2'></a>
+
+`typology_2` [DiGi\.Typology\.Classes\.Typology&lt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypology](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypology 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypology')[,](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')[TTypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_.TTypologyItem 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>\.TTypologyItem')[&gt;](DiGi.Typology.Classes.md#DiGi.Typology.Classes.Typology_TTypology,TTypologyItem_ 'DiGi\.Typology\.Classes\.Typology\<TTypology,TTypologyItem\>')
+
+The second typology, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first typology precedes or equals the second; otherwise, false\.
 
 <a name='DiGi.Typology.Classes.TypologyFile'></a>
 
@@ -2396,6 +2504,60 @@ The second item, or null\.
 [System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
 True if both are null or value\-equal; otherwise, false\.
 
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem)'></a>
+
+## TypologyItem\.operator \>\(TypologyItem, TypologyItem\) Operator
+
+Determines whether the first item follows the second in [CompareTo\(TypologyItem\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem.CompareTo(DiGi.Typology.Classes.TypologyItem) 'DiGi\.Typology\.Classes\.TypologyItem\.CompareTo\(DiGi\.Typology\.Classes\.TypologyItem\)') order \(null first\)\.
+
+```csharp
+public static bool operator >(DiGi.Typology.Classes.TypologyItem? typologyItem_1, DiGi.Typology.Classes.TypologyItem? typologyItem_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_1'></a>
+
+`typologyItem_1` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The first item, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_2'></a>
+
+`typologyItem_2` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The second item, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first item follows the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem)'></a>
+
+## TypologyItem\.operator \>=\(TypologyItem, TypologyItem\) Operator
+
+Determines whether the first item follows or equals the second in [CompareTo\(TypologyItem\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem.CompareTo(DiGi.Typology.Classes.TypologyItem) 'DiGi\.Typology\.Classes\.TypologyItem\.CompareTo\(DiGi\.Typology\.Classes\.TypologyItem\)') order \(null first\)\.
+
+```csharp
+public static bool operator >=(DiGi.Typology.Classes.TypologyItem? typologyItem_1, DiGi.Typology.Classes.TypologyItem? typologyItem_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_1'></a>
+
+`typologyItem_1` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The first item, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_2'></a>
+
+`typologyItem_2` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The second item, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first item follows or equals the second; otherwise, false\.
+
 <a name='DiGi.Typology.Classes.TypologyItem.op_Inequality(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem)'></a>
 
 ## TypologyItem\.operator \!=\(TypologyItem, TypologyItem\) Operator
@@ -2422,6 +2584,60 @@ The second item, or null\.
 #### Returns
 [System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
 True if the items differ in value; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem)'></a>
+
+## TypologyItem\.operator \<\(TypologyItem, TypologyItem\) Operator
+
+Determines whether the first item precedes the second in [CompareTo\(TypologyItem\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem.CompareTo(DiGi.Typology.Classes.TypologyItem) 'DiGi\.Typology\.Classes\.TypologyItem\.CompareTo\(DiGi\.Typology\.Classes\.TypologyItem\)') order \(null first\)\.
+
+```csharp
+public static bool operator <(DiGi.Typology.Classes.TypologyItem? typologyItem_1, DiGi.Typology.Classes.TypologyItem? typologyItem_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_1'></a>
+
+`typologyItem_1` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The first item, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThan(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_2'></a>
+
+`typologyItem_2` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The second item, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first item precedes the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem)'></a>
+
+## TypologyItem\.operator \<=\(TypologyItem, TypologyItem\) Operator
+
+Determines whether the first item precedes or equals the second in [CompareTo\(TypologyItem\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem.CompareTo(DiGi.Typology.Classes.TypologyItem) 'DiGi\.Typology\.Classes\.TypologyItem\.CompareTo\(DiGi\.Typology\.Classes\.TypologyItem\)') order \(null first\)\.
+
+```csharp
+public static bool operator <=(DiGi.Typology.Classes.TypologyItem? typologyItem_1, DiGi.Typology.Classes.TypologyItem? typologyItem_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_1'></a>
+
+`typologyItem_1` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The first item, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyItem.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyItem,DiGi.Typology.Classes.TypologyItem).typologyItem_2'></a>
+
+`typologyItem_2` [TypologyItem](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyItem 'DiGi\.Typology\.Classes\.TypologyItem')
+
+The second item, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first item precedes or equals the second; otherwise, false\.
 
 <a name='DiGi.Typology.Classes.TypologyModel'></a>
 
@@ -2982,6 +3198,60 @@ The typology path to convert\.
 [System\.Collections\.Generic\.List&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1 'System\.Collections\.Generic\.List\`1')[System\.Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32 'System\.Int32')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1 'System\.Collections\.Generic\.List\`1')  
 A new list containing the values of the path, or null if the input is null\.
 
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath)'></a>
+
+## TypologyPath\.operator \>\(TypologyPath, TypologyPath\) Operator
+
+Determines whether the first path follows the second in [CompareTo\(TypologyPath\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath.CompareTo(DiGi.Typology.Classes.TypologyPath) 'DiGi\.Typology\.Classes\.TypologyPath\.CompareTo\(DiGi\.Typology\.Classes\.TypologyPath\)') order \(null first\)\.
+
+```csharp
+public static bool operator >(DiGi.Typology.Classes.TypologyPath? typologyPath_1, DiGi.Typology.Classes.TypologyPath? typologyPath_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_1'></a>
+
+`typologyPath_1` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The first path, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_2'></a>
+
+`typologyPath_2` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The second path, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first path follows the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath)'></a>
+
+## TypologyPath\.operator \>=\(TypologyPath, TypologyPath\) Operator
+
+Determines whether the first path follows or equals the second in [CompareTo\(TypologyPath\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath.CompareTo(DiGi.Typology.Classes.TypologyPath) 'DiGi\.Typology\.Classes\.TypologyPath\.CompareTo\(DiGi\.Typology\.Classes\.TypologyPath\)') order \(null first\)\.
+
+```csharp
+public static bool operator >=(DiGi.Typology.Classes.TypologyPath? typologyPath_1, DiGi.Typology.Classes.TypologyPath? typologyPath_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_1'></a>
+
+`typologyPath_1` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The first path, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_GreaterThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_2'></a>
+
+`typologyPath_2` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The second path, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first path follows or equals the second; otherwise, false\.
+
 <a name='DiGi.Typology.Classes.TypologyPath.op_Inequality(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath)'></a>
 
 ## TypologyPath\.operator \!=\(TypologyPath, TypologyPath\) Operator
@@ -3008,6 +3278,60 @@ The second path, or null\.
 #### Returns
 [System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
 True if the paths differ in value; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath)'></a>
+
+## TypologyPath\.operator \<\(TypologyPath, TypologyPath\) Operator
+
+Determines whether the first path precedes the second in [CompareTo\(TypologyPath\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath.CompareTo(DiGi.Typology.Classes.TypologyPath) 'DiGi\.Typology\.Classes\.TypologyPath\.CompareTo\(DiGi\.Typology\.Classes\.TypologyPath\)') order \(null first\)\.
+
+```csharp
+public static bool operator <(DiGi.Typology.Classes.TypologyPath? typologyPath_1, DiGi.Typology.Classes.TypologyPath? typologyPath_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_1'></a>
+
+`typologyPath_1` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The first path, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThan(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_2'></a>
+
+`typologyPath_2` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The second path, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first path precedes the second; otherwise, false\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath)'></a>
+
+## TypologyPath\.operator \<=\(TypologyPath, TypologyPath\) Operator
+
+Determines whether the first path precedes or equals the second in [CompareTo\(TypologyPath\)](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath.CompareTo(DiGi.Typology.Classes.TypologyPath) 'DiGi\.Typology\.Classes\.TypologyPath\.CompareTo\(DiGi\.Typology\.Classes\.TypologyPath\)') order \(null first\)\.
+
+```csharp
+public static bool operator <=(DiGi.Typology.Classes.TypologyPath? typologyPath_1, DiGi.Typology.Classes.TypologyPath? typologyPath_2);
+```
+#### Parameters
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_1'></a>
+
+`typologyPath_1` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The first path, or null\.
+
+<a name='DiGi.Typology.Classes.TypologyPath.op_LessThanOrEqual(DiGi.Typology.Classes.TypologyPath,DiGi.Typology.Classes.TypologyPath).typologyPath_2'></a>
+
+`typologyPath_2` [TypologyPath](DiGi.Typology.Classes.md#DiGi.Typology.Classes.TypologyPath 'DiGi\.Typology\.Classes\.TypologyPath')
+
+The second path, or null\.
+
+#### Returns
+[System\.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System\.Boolean')  
+True if the first path precedes or equals the second; otherwise, false\.
 
 <a name='DiGi.Typology.Classes.UniqueValueFilterRule'></a>
 

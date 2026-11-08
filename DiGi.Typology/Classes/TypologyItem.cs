@@ -2,6 +2,7 @@ using DiGi.Core.Interfaces;
 using DiGi.Typology.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
@@ -296,6 +297,60 @@ namespace DiGi.Typology.Classes
         }
 
         /// <summary>
+        /// Determines whether the first item precedes the second in <see cref="CompareTo(TypologyItem)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyItem_1">The first item, or null.</param>
+        /// <param name="typologyItem_2">The second item, or null.</param>
+        /// <returns>True if the first item precedes the second; otherwise, false.</returns>
+        public static bool operator <(TypologyItem? typologyItem_1, TypologyItem? typologyItem_2)
+        {
+            if (typologyItem_1 is null)
+            {
+                return typologyItem_2 is not null;
+            }
+
+            return typologyItem_2 is not null && typologyItem_1.CompareTo(typologyItem_2) < 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first item precedes or equals the second in <see cref="CompareTo(TypologyItem)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyItem_1">The first item, or null.</param>
+        /// <param name="typologyItem_2">The second item, or null.</param>
+        /// <returns>True if the first item precedes or equals the second; otherwise, false.</returns>
+        public static bool operator <=(TypologyItem? typologyItem_1, TypologyItem? typologyItem_2)
+        {
+            if (typologyItem_1 is null)
+            {
+                return true;
+            }
+
+            return typologyItem_2 is not null && typologyItem_1.CompareTo(typologyItem_2) <= 0;
+        }
+
+        /// <summary>
+        /// Determines whether the first item follows the second in <see cref="CompareTo(TypologyItem)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyItem_1">The first item, or null.</param>
+        /// <param name="typologyItem_2">The second item, or null.</param>
+        /// <returns>True if the first item follows the second; otherwise, false.</returns>
+        public static bool operator >(TypologyItem? typologyItem_1, TypologyItem? typologyItem_2)
+        {
+            return typologyItem_2 < typologyItem_1;
+        }
+
+        /// <summary>
+        /// Determines whether the first item follows or equals the second in <see cref="CompareTo(TypologyItem)"/> order (null first).
+        /// </summary>
+        /// <param name="typologyItem_1">The first item, or null.</param>
+        /// <param name="typologyItem_2">The second item, or null.</param>
+        /// <returns>True if the first item follows or equals the second; otherwise, false.</returns>
+        public static bool operator >=(TypologyItem? typologyItem_1, TypologyItem? typologyItem_2)
+        {
+            return typologyItem_2 <= typologyItem_1;
+        }
+
+        /// <summary>
         /// Returns a string representation of the current item, typically in the format "[path] name".
         /// </summary>
         /// <returns>A string representing the typology item.</returns>
@@ -304,7 +359,7 @@ namespace DiGi.Typology.Classes
             string? path = typologyPath?.ToString();
             string name = this.name ?? "???";
 
-            return string.IsNullOrWhiteSpace(path) ? name : string.Format("[{0}] {1}", path, name);
+            return string.IsNullOrWhiteSpace(path) ? name : string.Format(CultureInfo.CurrentCulture, "[{0}] {1}", path, name);
         }
     }
 }

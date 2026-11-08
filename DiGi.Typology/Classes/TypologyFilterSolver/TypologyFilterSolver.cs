@@ -37,7 +37,7 @@ namespace DiGi.Typology.Classes
         /// <summary>
         /// Default TypologyItem for Typology root
         /// </summary>
-        public TypologyItem? TypologyItem { get; set; } = null;
+        public TypologyItem? TypologyItem { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TypologyFilterSolver{TTypologyFilter, TObject}"/> class.
